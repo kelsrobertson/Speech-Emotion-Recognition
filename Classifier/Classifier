@@ -1,1 +1,3 @@
-
+These files contain the trained machine learning components used for Speech Emotion Recognition (SER). 
+The ser_model.pkl holds the core model trained on extracted audio features, while ser_classifier.pkl includes the full classification pipeline, combining preprocessing steps and the trained classifier. 
+Together, they allow for accurate prediction of emotions such as happiness, sadness, anger, and more from voice input.
