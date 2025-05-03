@@ -1,3 +1,22 @@
 This ZIP file contains the RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song) dataset. 
 It includes audio recordings of professional actors speaking and singing with different emotions such as calm, happy, sad, angry, fearful, and surprised. 
 The dataset is commonly used to train and evaluate models for Speech Emotion Recognition (SER) tasks.
+
+# Features
+- Structured tabular data with multiple numerical and/or categorical features  
+- Target variable used for classification  
+- Some features required preprocessing steps such as scaling or encoding
+
+# Source
+Provided for coursework as part of the **ISAT 341** curriculum at James Madison University.  
+Used solely for educational and project-based purposes.
+
+# Format
+- CSV format (or embedded in the notebook)  
+- Columns: [e.g., `Feature1`, `Feature2`, ..., `Label`]  
+- Each row represents a sample or observation
+
+# Notes
+- Preprocessing included handling missing values and scaling features  
+- The final model was saved as `classifier.pkl` for reuse on new data  
+- Dataset helped demonstrate the full ML pipeline from data to prediction
